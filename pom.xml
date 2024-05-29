@@ -5,11 +5,7 @@
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-<<<<<<< HEAD
         <version>2.1.10.RELEASE</version>
-=======
-        <version>3.3.0</version>
->>>>>>> 11c9eded15a0abdabd0c0cd87024b532775a0b67
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
 
@@ -18,7 +14,6 @@
     <groupId>com.changgou</groupId>
     <artifactId>changgou_parent</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-<<<<<<< HEAD
     <packaging>pom</packaging>
     <name>changgou_parent</name>
     <description>changgou_parent</description>
@@ -35,14 +30,12 @@
     <properties>
         <skipTests>true</skipTests>
         <java.version>8</java.version>
-=======
-    <name>changgou_parent</name>
-    <description>changgou_parent</description>
-    <properties>
-        <skipTests>true</skipTests>
-        <java.version>17</java.version>
->>>>>>> 11c9eded15a0abdabd0c0cd87024b532775a0b67
+        <name>changgou_parent</name>
+        <description>changgou_parent</description>
     </properties>
+
+
+
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -60,18 +53,11 @@
             <dependency>
                 <groupId>org.springframework.cloud</groupId>
                 <artifactId>spring-cloud-dependencies</artifactId>
-<<<<<<< HEAD
                 <version>Greenwich.SR6</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
 
-=======
-                <version>Greenwich.SR1</version>
-                <type>pom</type>
-                <scope>import</scope>
-            </dependency>
->>>>>>> 11c9eded15a0abdabd0c0cd87024b532775a0b67
         </dependencies>
     </dependencyManagement>
 
@@ -81,7 +67,6 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
             </plugin>
-<<<<<<< HEAD
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
@@ -92,8 +77,6 @@
                     <encoding>UTF-8</encoding>
                 </configuration>
             </plugin>
-=======
->>>>>>> 11c9eded15a0abdabd0c0cd87024b532775a0b67
         </plugins>
     </build>
 
